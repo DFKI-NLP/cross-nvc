@@ -1,2 +1,2 @@
-# cross-nvc
-Crosslingual Neural Vector Conceptualization
+# Crosslingual Neural Vector Conceptualization
+Coming soon...
