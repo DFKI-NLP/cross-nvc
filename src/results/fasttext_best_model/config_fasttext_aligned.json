@@ -1,0 +1,33 @@
+{
+  "batch_size": 128,
+  "classif_threshold": 0.5,
+  "learning_rate": 0.001,
+  "cross_val": 5,
+  "check_concepts_for_cosine": false,
+  "early_stopping": true,
+  "embedding_combiner": false,
+  "epochs": 500,
+  "mcg_file_header": [
+    "concept",
+    "instance",
+    "count",
+    "p(c|e)",
+    "p(e|c)",
+    "rep",
+    "empty"
+  ],
+  "min_delta": 0.00002,
+  "min_num_inst": 100,
+  "min_rep": -10,
+  "num_hidden_layers": 2,
+  "max_length_of_instances": false,
+  "patience": 4,
+  "regularizers": [
+    0.00000001,
+    0.00000001
+  ],
+  "train_set_size": 0.8,
+  "use_class_weights": false,
+  "check_other_embedding": false,
+  "min_count_of_instances": 0
+}
