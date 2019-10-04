@@ -50,7 +50,7 @@ The MCG data dump does only comprise concepts, instances and associated counts, 
 
 This takes some time, therefore we recommend to download the already preprocessed data from [here](https://cloud.dfki.de/owncloud/index.php/s/3o5eTHTG3YtfWg7) and unzip into
 ```
-./data/
+./src/data/
 ```
 This dump includes
   - the data from the MCG as TSV file with REP values (`data-concept-instance-relations-with-rep.tsv`)
