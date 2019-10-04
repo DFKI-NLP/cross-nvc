@@ -48,9 +48,9 @@ wget -P ~/cross_nvc/src/data/ "https://concept.research.microsoft.com/Home/Start
 ```
 The MCG data dump does only comprise concepts, instances and associated counts, no probabilities or REP values. These need to be calculated before training. Therefore, see the script `utils/ms_concept_graph_scoring.py` in the notebook which calculates all needed probabilities and writes the data to a TSV file.
 
-This takes some time, therefore we recommend to download the already preprocessed data from [here](https://cloud.dfki.de/owncloud/index.php/s/3o5eTHTG3YtfWg7) and
+This takes some time, therefore we recommend to download the already preprocessed data from [here](https://cloud.dfki.de/owncloud/index.php/s/3o5eTHTG3YtfWg7) and unzip into
 ```
-unzip data/input_data.zip
+./data/
 ```
 This dump includes
   - the data from the MCG as TSV file with REP values (`data-concept-instance-relations-with-rep.tsv`)
