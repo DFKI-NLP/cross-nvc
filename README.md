@@ -51,7 +51,7 @@ The MCG data dump does only comprise concepts, instances and associated counts, 
 This takes some time, therefore we recommend to download the already preprocessed data from here:
 
 ```
-wget -P ~/cross_nvc/src/data/ "https://path-to/input_data.zip" 
+wget -P ~/cross_nvc/src/data/ "https://cloud.dfki.de/owncloud/index.php/s/3o5eTHTG3YtfWg7" 
 unzip data/input_data.zip
 ```
 This dump includes
